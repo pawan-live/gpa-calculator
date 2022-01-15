@@ -1,0 +1,129 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main {
+  min-height: 100vh;
+  background: linear-gradient(to top left, #11998e, #38ef7d);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  margin: 2rem 2rem;
+  background: white;
+  background: linear-gradient(
+    to bottom right,
+    rgba(255, 255, 255, 0.5),
+    rgba(255, 255, 255, 0.3)
+  );
+  width: 80%;
+  max-width: 700px;
+  min-width: 300px;
+  height: auto;
+  min-height: 700px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  border-radius: 25px;
+  backdrop-filter: blur(15px);
+  position: relative;
+  box-shadow: 10px 10px 25px rgba(0, 0, 0, 0.082);
+}
+
+.heading {
+  padding: 2.5rem 0rem;
+}
+
+.text {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  color: #395f5b;
+  font-size: 1.4rem;
+}
+
+.heading h1 {
+  font-family: "Roboto", sans-serif;
+  font-size: 2.8rem;
+  font-weight: 600;
+  color: #1d6963ed;
+}
+
+.display .text {
+  font-style: italic;
+  font-weight: 300;
+}
+
+.calc-area {
+  margin: 0 0 1rem 0;
+  background: white;
+  background: linear-gradient(
+    to bottom right,
+    rgba(255, 255, 255, 0.6),
+    rgba(255, 255, 255, 0.3)
+  );
+  width: 95%;
+  border-radius: 20px;
+  padding: 1rem;
+}
+
+.display {
+  padding: 2rem;
+  border: 3px solid #75a8a488;
+  border-radius: 16px;
+}
+
+.modules {
+  display: flex;
+  flex-direction: column;
+  /* background: rgba(255, 255, 255, 0.349); */
+  padding: 1.5rem 0rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.module {
+  padding: 1rem 0rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+select {
+  width: 12rem;
+  margin-left: 1.2rem;
+  border: none;
+  padding: 0.5rem 0.5rem;
+  border-radius: 0.5rem;
+  background: rgba(255, 255, 255, 0.5);
+  font-family: "Roboto", sans-serif;
+  color: #395f5b;
+  font-size: 1.3rem;
+  font-weight: 400;
+}
+
+.calculate {
+  width: 12rem;
+  border: none;
+  margin: 0 0 1rem 0; /* top right bottom left */
+  padding: 0.5rem 0.5rem;
+  border-radius: 0.6rem;
+  background: #1d6963ed;
+  font-family: "Roboto", sans-serif;
+  color: white;
+  font-size: 1.3rem;
+  font-weight: 400;
+  cursor: pointer;
+  padding: 0.7rem;
+}
+
+.calculate:hover {
+  color: #1d6963ed;
+  background: rgba(255, 255, 255, 0.5);
+  font-weight: 400;
+  transition: 0.3s ease-in-out;
+}
